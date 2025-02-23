@@ -1,0 +1,296 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+    width: 100%;
+}
+
+/* Header Section */
+header {
+    background: #003366;
+    padding: 15px 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.business-name {
+    color: #f1a801;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    flex: 1;
+}
+
+.contact-info {
+    font-size: 14px;
+    text-align: right;
+}
+
+/* Navigation Bar */
+nav {
+    background: #002244;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #f1a801;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hero-bg.jpg') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #f1a801;
+    color: #003366;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background: #d78a00;
+}
+
+/* Inventory Section */
+.inventory-section {
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.inventory-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Vehicle Cards */
+.card {
+    background: white;
+    padding: 15px;
+    width: 220px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    max-width: 100%;
+}
+
+.card img {
+    width: 100%;
+    height: 150px; /* Ensures uniform card size */
+    object-fit: cover; /* Prevents image distortion */
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Vehicle Details Popup */
+.vehicle-details-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    overflow: auto; /* Allows scrolling for large images */
+}
+
+#details-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+#details-content img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+}
+
+#details-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#details-content p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Show Details and Close Buttons */
+button {
+    background-color: #003366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f1a801;
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+    background: #f1f1f1;
+}
+
+.contact-section form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact-section input, 
+.contact-section textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-section button {
+    background: #003366;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-links a {
+    color: #f1a801;
+    text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inventory-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 250px;
+    }
+}
+
+/* Gallary Section */
+#gallary {
+    height: 100vh;
+}
