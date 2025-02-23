@@ -3,35 +3,35 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             name: "Vehicle 1",
             price: "₹55800",
-            image: "./assets/gallary/9.jpg",
+            image: "../assets/gallary/9.jpg",
             shortDescription: "A reliable and efficient vehicle.",
             fullDescription: "A reliable and efficient vehicle with excellent mileage, low maintenance costs, and a comfortable interior."
         },
         {
             name: "Vehicle 2",
             price: "₹65200",
-            image: "./assets/gallary/1.jpg",
+            image: "../assets/gallary/1.jpg",
             shortDescription: "A comfortable and stylish ride.",
             fullDescription: "A comfortable and stylish ride with premium features, high safety ratings, and a smooth driving experience."
         },
         {
             name: "Vehicle 3",
             price: "₹51000",
-            image: "./assets/gallary/5.jpg",
+            image: "../assets/gallary/5.jpg",
             shortDescription: "A great choice for daily commute.",
             fullDescription: "A great choice for daily commute with fuel efficiency, a spacious interior, and advanced safety features."
         },
         {
             name: "Vehicle 4",
             price: "₹50000",
-            image: "./assets/gallary/6.jpg",
+            image: "../assets/gallary/6.jpg",
             shortDescription: "A great choice for daily commute.",
             fullDescription: "A great choice for daily commute with fuel efficiency, a spacious interior, and advanced safety features."
         },
         {
             name: "Vehicle 5",
             price: "₹40500",
-            image: "./assets/gallary/8.jpg",
+            image: "../assets/gallary/8.jpg",
             shortDescription: "A great choice for daily commute.",
             fullDescription: "A great choice for daily commute with fuel efficiency, a spacious interior, and advanced safety features."
         }
