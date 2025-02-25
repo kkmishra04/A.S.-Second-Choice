@@ -1,82 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - A.S. Second Choice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-   <!-- Header Section -->
-   <header>
+  <!-- Header Section -->
+  <header>
     <div class="header-container">
-        <div class="logo">
-            <img src="logo.jpeg" alt="A.S. Second Choice Logo">
-        </div>
-        <div class="business-name">A.S. Second Choice</div>
-        <div class="contact-info">
-            <p>Dumuhi Chowk, Pirpainti Road, Godda, Amidha, Jharkhand 814133</p>
-            <p>📞 +91 8789417424</p>
-            <p>📞 +91 9304713430</p>
-            <p>✉ amritanshushekharjha8789@gmail.com</p>
-        </div>
+      <div class="logo">
+        <img src="logo.jpeg" alt="A.S. Second Choice Logo">
+      </div>
+      <div class="business-name">A.S. Second Choice</div>
+      <div class="contact-info">
+        <p>Dumuhi Chowk, Pirpainti Road, Godda, Amidha, Jharkhand 814133</p>
+        <p>📞 +91 8789417424</p>
+        <p>📞 +91 9304713430</p>
+        <p>✉ amritanshushekharjha8789@gmail.com</p>
+      </div>
     </div>
     <nav>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="#inventory">Inventory</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="gallary.html">Gallary</a></li>
-        </ul>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html#inventory">Inventory</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+      </ul>
     </nav>
-</header>
-<br>
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
-       <!-- Images with updated paths -->
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/1.jpg" alt="Image 1" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/2.jpg" alt="Image 2" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/3.jpg" alt="Image 3" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/4.jpg" alt="Image 4" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/5.jpg" alt="Image 5" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/6.jpg" alt="Image 6" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/7.jpg" alt="Image 7" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/8.jpg" alt="Image 8" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
-        <div class="group cursor-pointer relative">
-          <img src="./assets/gallary/9.jpg" alt="Image 9" class="w-full h-48 object-cover rounded-lg transition-transform transform scale-100 group-hover:scale-105"/>
-        </div>
+  </header>
+  <br>
+
+  <!-- Gallery Section -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+    <!-- Image Cards - Full image inside card without cropping -->
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/1.jpg" alt="Image 1" class="w-full h-full object-contain" />
     </div>
-    <br>
-    <!-- Footer Section -->
-    <footer class="footer">
-      <div class="footer-container">
-          <p>&copy; 2025 A.S. Second Choice. All Rights Reserved.</p>
-          <p>📍 Dumuhi Chowk, Pirpainti Road, Godda, Amidha, Jharkhand 814133</p>
-          <p>📞 +91 8789417424 📞 +91 9304713430</p>
-          <p>✉ amritanshushekharjha8789@gmail.com</p>
-          <ul class="footer-links">
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="#contact">Contact</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-          </ul>
-      </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/2.jpg" alt="Image 2" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/3.jpg" alt="Image 3" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/4.jpg" alt="Image 4" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/5.jpg" alt="Image 5" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/6.jpg" alt="Image 6" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/7.jpg" alt="Image 7" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/8.jpg" alt="Image 8" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/9.jpg" alt="Image 9" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/28.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/29.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/30.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/31.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/32.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/33.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/34.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/35.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/36.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/37.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/38.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/39.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/40.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/41.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/42.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/43.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/44.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+    <div class="relative w-full h-48 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+      <img src="./assets/gallary/45.jpeg" alt="Image 10" class="w-full h-full object-contain" />
+    </div>
+  </div>
+  <br>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2025 A.S. Second Choice. All Rights Reserved.</p>
+      <p>📍 Dumuhi Chowk, Pirpainti Road, Godda, Amidha, Jharkhand 814133</p>
+      <p>📞 +91 8789417424 📞 +91 9304713430</p>
+      <p>✉ amritanshushekharjha8789@gmail.com</p>
+      <ul class="footer-links">
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
   </footer>
+
 </body>
+
 </html>
