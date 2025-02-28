@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Honda Shine",
             price: "₹62000",
             image: "../assets/gallary/46.jpeg",
-            shortDescription: "5600KM Driven",
+            shortDescription: "5600KM Driven, vehicle age: 8month",
             fullDescription: "A reliable and efficient vehicle with 70+ Kmpl mileage. For more Pictures visit our gallery page"
         },
         {
-            name: "Vehicle 2",
-            price: "₹65200",
-            image: "../assets/gallary/1.jpg",
-            shortDescription: "A comfortable and stylish ride.",
-            fullDescription: "A comfortable and stylish ride with premium features, high safety ratings, and a smooth driving experience."
+            name: "Hero Karizma XMR 210",
+            price: "₹120000",
+            image: "../assets/gallary/49.jpeg",
+            shortDescription: "3500KM Driven, Vehicle age: 10month",
+            fullDescription: "A comfortable and stylish ride with smooth driving experience. For more Pictures visit our gallery page"
         },
         {
             name: "Vehicle 3",
