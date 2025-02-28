@@ -1,11 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
     const vehicles = [
         {
-            name: "Vehicle 1",
-            price: "₹55800",
-            image: "../assets/gallary/9.jpg",
-            shortDescription: "A reliable and efficient vehicle.",
-            fullDescription: "A reliable and efficient vehicle with excellent mileage, low maintenance costs, and a comfortable interior."
+            name: "Honda Shine",
+            price: "₹62000",
+            image: "../assets/gallary/46.jpeg",
+            shortDescription: "5600KM Driven",
+            fullDescription: "A reliable and efficient vehicle with 70+ Kmpl mileage. For more Pictures visit our gallery page"
         },
         {
             name: "Vehicle 2",
