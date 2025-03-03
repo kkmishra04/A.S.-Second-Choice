@@ -15,11 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
             fullDescription: "A comfortable and stylish ride with smooth driving experience. For more Pictures visit our gallery page"
         },
         {
-            name: "Vehicle 3",
-            price: "₹51000",
-            image: "../assets/gallary/5.jpg",
-            shortDescription: "A great choice for daily commute.",
-            fullDescription: "A great choice for daily commute with fuel efficiency, a spacious interior, and advanced safety features."
+            name: "Pulsar 160",
+            price: "₹105000",
+            image: "../assets/gallary/42.jpeg",
+            shortDescription: "5500KM Driven, Vehichle age: 3month",
+            fullDescription: "A great choice for daily commute with fuel efficiency, For more Pictures visit our gallery page."
         },
         {
             name: "Vehicle 4",
